@@ -1,0 +1,11 @@
+Expressões:
+(   )Jogador 1: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Sim)
+(   )Jogador 2: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Não)
+(   ) Jogador 3: (pontos < 100) or (moedas < 5) or (enfrentou_chefe == Sim)
+(   ) Jogador 4: (pontos != 100) or (moedas != 5) or not(enfrentou_chefe == Não) 
+
+Respostas:
+( Verdadeiro  )Jogador 1: (120 >= 100) and (15 >= 5) and (enfrentou_chefe == Sim)
+( Falso  )Jogador 2: (99 >= 100) and (200 >= 5) and (enfrentou_chefe == Não)
+( Verdadeiro ) Jogador 3: (100 < 100) or (5 < 5) or (enfrentou_chefe == Sim)
+( Verdadeiro  ) Jogador 4: (101 != 100) or (4 != 5) or not(enfrentou_chefe == Não) 
