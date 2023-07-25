@@ -1,0 +1,33 @@
+Em uma inscrição, o usuário informou os seguintes dados:
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição.
+
+Respostas: 
+
+1) Nome = armazenar nome;
+    CPF = armazenar cpf;
+    Rg  = armazenar rg;
+    Altura = armazenar altura;
+    Endereço = armazenar endereço;
+
+2) Caracter Nome;
+    int CPF;
+    int RG;
+    Real Altura;
+    Caracter Endereço;
+
+3) Caracter Nome =  José Almeida da Silva;
+    int CPF = 12345678900;
+    int RG = 9517530;
+    Real Altura = 1,78;
+    Caracter Endereço = Rua A, 380 – Centro – Recife/PE;
+
