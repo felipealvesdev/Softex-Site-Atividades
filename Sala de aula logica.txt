@@ -1,0 +1,5 @@
+Cada linha possui 6 alunos
+Cada linha ou possui (4P e 2M) ou (2P e 4M)
+E é feito em sequência, se na primeira linha ele possuía 4P, na proxima linha ele terá 4M.
+Baseado nisso, quando efetuou-se a troca na imagem03, havia duas linhas com 3M e 3P
+Logo, alguem trocou de lugar.
