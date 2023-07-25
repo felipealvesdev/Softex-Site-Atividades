@@ -1,0 +1,6 @@
+const num = parseInt(prompt("Digite um número para ver sua tabuada;));
+let result;
+
+for(int i = 1; i<=10; i++){
+    alert(`${num} x ${i} = ${num*i}`);
+}
