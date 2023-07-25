@@ -1,0 +1,12 @@
+boolean terrestre = leia("É terrestre?");
+boolean cabeApenasUmaPessoa = leia("Cabe apenas uma pessoa?");
+boolean pesado = leia("É pesado?");
+boolean temPedal = leia("Tem pedal?");
+
+Se(cabeApenasUmaPessoa = true && pesado = true){
+    exiba("Então, o transporte escolhido foi o trator.");
+}senao se(cabeApenasUmaPessoa = true && pesado = false && temPedal = true){
+    exiba("Então, o transporte escolhido foi a bicicleta.");
+}senao{
+    exiba("Então, o transporte escolhido foi a moto.");
+}
