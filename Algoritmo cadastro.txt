@@ -1,0 +1,21 @@
+Caracter Nome = leia;
+Caracter Endereço = leia;
+Caracter Cidade = leia;
+Inteiro CPF = leia;
+Inteiro RG = leia;
+Inteiro Idade = leia;
+Caracter NomeDoPai = leia;
+Caracter NomeDaMãe = leia;
+Inteiro Peso = leia;
+Inteiro RendaBruta = leia;
+
+Exiba Nome;
+Exiba Endereço;
+Exiba Cidade;
+Exiba CPF;
+Exiba RG;
+Exiba Idade;
+Exiba NomeDoPai;
+Exiba NomeDaMãe;
+Exiba Peso ;
+Exiba RendaBruta;
