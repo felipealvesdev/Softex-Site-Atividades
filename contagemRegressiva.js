@@ -1,7 +1,14 @@
 alert("Iniciando contagem regressiva!");
+   
+let tempo = 10;
 
-for(let i = 10; i>=1; i--){
-    alert(`Contagem regressiva! ${i}`);
-}
+let interval = setInterval(()=>{
+    document.writeln(`<br>${tempo}s<br>`);
+    tempo--;
+},1000)
 
-alert("KA BOOOOOOOMMMMMMMMMMMMMMM");
+setTimeout(()=>{
+    clearInterval(interval);
+    document.writeln(`<br>Booooooooooommmmmmmmmmmmm <br>`)
+},11000);
+
