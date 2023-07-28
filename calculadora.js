@@ -4,9 +4,6 @@ const operacao = parseInt(prompt("Digite a opção de operador desejado: 1.Soma 
 let result;
 
 function calculadora(num1, num2, operac){
-    num1 = numero1;
-    num2 = numero2;
-    operac = operacao;
 
     if(operac === 1){
         result = num1 + num2;
