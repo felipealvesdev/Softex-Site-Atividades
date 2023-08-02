@@ -16,5 +16,4 @@ for(let i = 0; i<10; i++){
 for(let i = 0; i<10 ; i++){  
     alert(`O ${i+1} nome da lista é : ${arr[0][i]}, a idade de ${arr[0][i]} é ${arr[1][i]} anos e
     a cor favorita de ${arr[0][i]} é ${arr[2][i]}`);
-
 }
